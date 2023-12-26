@@ -1,7 +1,7 @@
 .div1{
-    background-color: rgb(61, 207, 207);
-    height:300px;
-    width: 300px;
+    background-color: rgb(0, 0, 0);
+    height:400px;
+    width: 400px;
     margin: auto;
     margin-top:70px;
     
@@ -9,14 +9,23 @@
     padding: 10px;
     text-align: center;
 }
-button{
-    height:30px;
-    width: 30px;
-    border-radius:50px;
+
+.text1{
+    background-color: rgb(130, 215, 45);width: 340px;height: 50px;
 }
-button:hover{
-    background-color: rgb(174, 0, 255);
+
+.bt1{
+   background-color: rgb(78, 19, 255);width: 60px;height: 50px;
+   border-radius: 50px;
 }
+
+.bt2{
+    background-color: rgb(255, 255, 255);width: 60px;height: 50px;
+ }
+ 
+
+
+
 p{
 text-align: center;
 font-size:50px;
@@ -46,4 +55,8 @@ animation-iteration-count: infinite;
         color: rgb(237, 99, 99);
         
     }
+}
+
+button:hover{
+    background-color: bisque;
 }
